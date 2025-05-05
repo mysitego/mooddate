@@ -1,0 +1,42 @@
+{
+  "usertable": [
+    {
+      "_id": "1",
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "password123"
+    }
+  ],
+  "profiles": [
+    {
+      "_id": "1",
+      "userid": ["1"],
+      "fullName": "مستخدم تجريبي",
+      "bio": "هذا ملف تعريفي تجريبي",
+      "avatarUrl": ""
+    }
+  ],
+  "moods": [
+    { "_id": "1", "moodid": "1", "moodname": "سعيد", "icon": "happy-outline", "color": "#4CAF50" },
+    { "_id": "2", "moodid": "2", "moodname": "حزين", "icon": "sad-outline", "color": "#2196F3" },
+    { "_id": "3", "moodid": "3", "moodname": "غاضب", "icon": "flame-outline", "color": "#F44336" },
+    { "_id": "4", "moodid": "4", "moodname": "متحمس", "icon": "star-outline", "color": "#FF9800" },
+    { "_id": "5", "moodid": "5", "moodname": "مسترخي", "icon": "leaf-outline", "color": "#9C27B0" }
+  ],
+  "moodlogs": [
+    {
+      "_id": "1",
+      "userid": "1",
+      "moodid": "1",
+      "date": "2025-04-30T00:00:00.000Z",
+      "notes": "يوم رائع مع العائلة"
+    }
+  ],
+  "activities": [
+    { "_id": "1", "moodid": "1", "name": "اذهب في نزهة مع الأصدقاء", "description": "الخروج مع الأصدقاء يساعد على تحسين المزاج" },
+    { "_id": "2", "moodid": "2", "name": "استمع لموسيقى هادئة", "description": "الموسيقى تساعد على تهدئة المشاعر" },
+    { "_id": "3", "moodid": "3", "name": "قم بممارسة تمارين التنفس", "description": "التنفس العميق يساعد على تهدئة الغضب" },
+    { "_id": "4", "moodid": "4", "name": "ابدأ مشروع صغير", "description": "استغل طاقتك في عمل إيجابي" },
+    { "_id": "5", "moodid": "5", "name": "قراءة كتاب", "description": "القراءة تساعد على الاسترخاء والتأمل" }
+  ]
+}
